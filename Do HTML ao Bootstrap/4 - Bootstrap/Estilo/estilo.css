@@ -1,0 +1,374 @@
+/*
+Cores utilizadas
+Azul escuro: #22577E
+Azul medio:  #5584AC
+Azul claro:  #95D1CC
+Fundo amarelado: #FAFFAF;
+*/
+
+
+@font-face{
+	font-family: "BacktoSchool"; /*Aqui é o nome da fonte que eu posso definir como quiser*/
+	src: url("../Fonts/BacktoSchool.woff"); /*Já aqui, eu tenho que inserir o caminho certinho da fonte. É IMPORTANTE DEIXAR A FONTE JUNTO COM O SEU PROJETO*/
+}
+.bg-escuro{
+	background: #000;
+}
+
+footer i{
+	font-size: 1.3em;
+	padding-right: 5px;
+}
+
+
+ul li a{
+	color: white;
+}
+
+ul li a:hover{
+	color: #000;
+}
+
+.minha-box{
+	margin: 80px 0 80px 0;
+	text-align: center;
+}
+
+.minha-box2{
+	margin: 30px 0 80px 0;
+	text-align: center;
+}
+
+.minha-box3{
+	margin: 120px 0 120px 0;
+	text-align: center;
+}
+
+.minha-box4{
+	margin: 120px 0 0 0;
+}
+
+.bg1{
+	background: #fffac1;
+}
+
+.bg2{
+	background: #e2ffe4;
+}
+
+
+.bg3{
+	background: #dbeffa;
+}
+
+
+.bg4{
+	background: #f8e8f5;
+}
+
+
+.bg5{
+	background: #faf1e5;
+}
+
+.section1.admin1:hover{
+	background: #dbeffa;
+}
+
+.color1{
+	color: #17a2b8;
+}
+
+
+.box-espacamento{
+	margin: 50px 0;
+}
+
+.box-espacamento2{
+	margin: 140px 0;
+}
+
+.box-espacamento3{
+	margin: 0px 0px 140px 0px;
+}
+
+
+div a{
+	color: black;
+}
+
+div a h4{
+	text-align: center;
+}
+
+.logo-span{
+	color: #fff;
+	font-family: BacktoSchool;
+	letter-spacing: 8px;
+	font-size: 2em;
+}
+
+.logo-span2{
+	color: #fff;
+	font-family: BacktoSchool;
+	letter-spacing: 6px;
+	font-size: 1.3em;
+}
+
+
+.container a{
+	text-decoration: none;
+}
+
+.container a span:hover{
+	color: darkblue;
+}
+
+footer .container a span:hover{
+	color: #0073e7;
+}
+
+
+.selecionado:hover{
+	cursor: pointer;
+	color: blue;
+}
+
+.miniaturas div h4{
+	text-align: center;
+}
+
+
+.cursos img{
+}
+
+
+
+/*Parallax*/
+/*******************************************/
+.parallax{
+	height: 100%;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+	position: relative;
+	height: 100%;
+	opacity: 1; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+ .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16{
+ 	position: relative;
+	height: 100%;
+	opacity: 1; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+ }
+
+
+.box1{
+background-image: url(../Imagens/construcao1.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box2{
+background-image: url(../Imagens/imagem2.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box3{
+background-image: url(../Imagens/imagem3.jpg);
+height: 800px;
+background-position: center;
+}
+
+
+.box4{
+background-image: url(../Imagens/imagem4.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box5{
+background-image: url(../Imagens/imagem5.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box6{
+background-image: url(../Imagens/imagem6.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box7{
+background-image: url(../Imagens/7.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box8{
+background-image: url(../Imagens/8.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box9{
+background-image: url(../Imagens/9.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box10{
+background-image: url(../Imagens/10.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box11{
+background-image: url(../Imagens/11.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box12{
+background-image: url(../Imagens/12.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box13{
+background-image: url(../Imagens/13.jpg);
+height: 800px;
+background-position: center;
+}
+
+
+.box14{
+background-image: url(../Imagens/15.jpg);
+height: 800px;
+background-position: center;
+}
+
+
+.box15{
+background-image: url(../Imagens/16.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box16{
+background-image: url(../Imagens/17.jpg);
+height: 800px;
+background-position: center;
+}
+.conteudo-parallax{
+	position: absolute;
+	left: 0%;
+	top: 45%;
+	width: 100%;
+	text-align: center
+}
+
+.conteudo-parallax span{
+	color: #fff;
+	padding: 20px;
+	font-size: 1.5em;
+	letter-spacing: 5px; /*Espaçamento interno das letras*/
+}
+
+
+.texto-parallax{
+	margin: 50px;
+}
+
+.texto-parallax p{
+	padding: 10px;
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+.texto-parallax h2{
+	margin-top: -30px;
+}
+
+.texto-parallax .texto-final{
+	margin-bottom: -30px;
+}
+
+
+/*Tabela*********************/
+thead{
+	text-transform: uppercase;
+}
+
+.colorido{
+	background: #fff;
+}
+
+.tr-contato:hover{
+	font-weight: bold;
+}
+
+
+
+/****************************/
+.esqueceu{
+	color: blue;
+}
+
+.esqueceu:hover{
+	text-decoration: underline;
+}
+
+.icones{
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+
+.icone-input{
+	padding-left: 25px;
+}
+
+.hoverblue a:hover{
+	color: #17a2b8;
+}
+
+.hoverblue2:hover{
+	color: #17a2b8;
+}
+
+.hoverimg:hover{
+	border: 2px solid #fff;
+}
+
+
+/*******************************/
+
+footer div ul li a:hover{
+	color: #0073e7 ;
+}
+
+.svg{
+	color: red;
+}
+
+.carousel-item h1{
+	color: #007bff;
+}
+
+.carousel-item p{
+	color: #000;
+}
+
+.carousel-item .carousel-caption div{
+	background: #fff;
+}

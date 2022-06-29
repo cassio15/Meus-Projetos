@@ -1,0 +1,968 @@
+/*
+Cores utilizadas
+Azul escuro: #22577E
+Azul medio:  #5584AC
+Azul claro:  #95D1CC
+Fundo amarelado: #FAFFAF;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "BacktoSchool"; /*Aqui é o nome da fonte que eu posso definir como quiser*/
+	src: url("../Fonts/BacktoSchool.woff"); /*Já aqui, eu tenho que inserir o caminho certinho da fonte. É IMPORTANTE DEIXAR A FONTE JUNTO COM O SEU PROJETO*/
+}
+
+@font-face{
+	font-family: "CAMPUSPERSONALUSE"; /*Aqui é o nome da fonte que eu posso definir como quiser*/
+	src: url("../Fonts/CAMPUSPERSONALUSE.woff"); /*Já aqui, eu tenho que inserir o caminho certinho da fonte. É IMPORTANTE DEIXAR A FONTE JUNTO COM O SEU PROJETO*/
+}
+
+body{
+	font-size: 15px;
+	font-family: Helvetica, sans-serif, arial;
+}
+
+a{
+	text-decoration: none;
+}
+
+#container{
+	background: #DCDCDC;
+	min-width: 1050px;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.cabecalho{
+	background: #fff url(../Imagens/cabecalho.jpg) no-repeat center;
+	opacity: 0.8;
+	height: 200px;
+}
+
+.titulo-cabecalho{
+	line-height: 125px;
+	text-align: center;
+}
+
+.titulo-cabecalho span{
+	color: #fff;
+	font-family: BacktoSchool;
+	background-color: blue;
+	padding: 30px;
+	border: 1px solid #fff;
+	letter-spacing: 8px;
+	font-size: 1.5em;
+}
+
+.titulo-cabecalho p{
+	margin-top: -95px;
+	font-size: 1.1em;
+	color: #fff;
+	font-family: CAMPUSPERSONALUSE;
+	font-style: italic;
+
+}
+
+.espaco-branco{
+	background: #fff;
+	width: 100%;
+	height: 44px;
+	opacity: 0.7;
+}
+
+.titulo-cabecalho a{
+	position: relative;
+	top: -85px;
+	padding: 30px;
+	font-size: 1em;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.titulo-cabecalho a:hover{
+	padding: 12px 26px;
+	font-family: CAMPUSPERSONALUSE;
+	letter-spacing: 2px;
+	font-size: 1.2em;
+	color: #fff;
+	background: blue;
+}
+
+
+
+/*Conteudo*/
+/***********************************************/
+.conteudo{
+	margin-top: 30px;
+}
+
+.lateral{
+	float: left;
+	background: #FAFFAF;
+	padding: 0px 20px;
+	width: 22%;
+	max-width: 195px;
+}
+
+.lateral h2{
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	background: blue;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.lateral ul{
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.lateral ul li{
+	font-size: 1em;
+}
+
+
+.lateral ul li a{
+	color: #000;
+	font-weight: bolder;
+	display: block;
+	text-indent: 30px;
+	line-height: 40px;
+	background: url(../Imagens/menu.png) no-repeat left bottom; 
+}
+
+.lateral ul li a:hover{
+	color: #fff;
+	background-position: right bottom;
+}
+
+
+/*Central*/
+/********************************************/
+.central{
+	float: right;
+	background: #FAFFAF;
+	padding: 0px 20px;
+	width: 65%;
+	text-align: justify;
+}
+
+
+.central h2{
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	background: blue;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.central p{
+	padding: 15px 0px 15px 15px;
+}
+
+.central .imagem{
+}
+
+.central .imagem img{
+	float: right;
+	width: 50%;
+	margin: 20px 0px 10px 20px;
+	border: 3px solid blue;
+}
+
+
+/*Parallax*/
+/*******************************************/
+.parallax{
+	height: 100%;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+	position: relative;
+	height: 100%;
+	opacity: 0.8; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+ .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16{
+ 	position: relative;
+	height: 100%;
+	opacity: 1; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+ }
+
+
+.box1{
+background-image: url(../Imagens/construcao1.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box2{
+background-image: url(../Imagens/imagem2.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box3{
+background-image: url(../Imagens/imagem3.jpg);
+height: 800px;
+background-position: center;
+}
+
+
+.box4{
+background-image: url(../Imagens/imagem4.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box5{
+background-image: url(../Imagens/imagem5.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box6{
+background-image: url(../Imagens/imagem6.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box7{
+background-image: url(../Imagens/7.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box8{
+background-image: url(../Imagens/8.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box9{
+background-image: url(../Imagens/9.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box10{
+background-image: url(../Imagens/10.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box11{
+background-image: url(../Imagens/11.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box12{
+background-image: url(../Imagens/12.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box13{
+background-image: url(../Imagens/13.jpg);
+height: 800px;
+background-position: center;
+}
+
+
+.box14{
+background-image: url(../Imagens/15.jpg);
+height: 800px;
+background-position: center;
+}
+
+
+.box15{
+background-image: url(../Imagens/16.jpg);
+height: 800px;
+background-position: center;
+}
+
+.box16{
+background-image: url(../Imagens/17.jpg);
+height: 800px;
+background-position: center;
+}
+.conteudo-parallax{
+	position: absolute;
+	left: 0%;
+	top: 45%;
+	width: 100%;
+	text-align: center
+}
+
+.conteudo-parallax span{
+	color: #fff;
+	background-color: blue;
+	padding: 20px;
+	font-size: 1.5em;
+	letter-spacing: 5px; /*Espaçamento interno das letras*/
+	text-transform: uppercase;
+}
+
+
+.texto-parallax{
+	margin: 50px;
+}
+
+.texto-parallax p{
+	padding: 10px;
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+
+/*Formulario*/
+/******************************************/
+.formulario{
+	margin: 0 auto;
+	background: #FAFFAF;
+	width: 100%;
+	text-align: justify;
+}
+
+.formulario h2{
+	text-align: center;
+	padding: 20px;
+	margin: 0px 20px;
+	font-size: 2em;
+	background: blue;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.formulario .titulo h3{
+	text-align: center;
+	padding: 20px;
+	margin: 60px 450px;
+	font-size: 1.5em;
+	background: blue;
+	color: #fff;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	min-width: 150px;
+}
+
+.formulario p{
+	padding: 15px;
+}
+
+
+.formulario .form-bolsas{ /*Posicionamento do formulario*/
+	position: relative;
+	left: 23%;
+	width: 500px;
+	background: #FAFFAF;
+	padding: 50px 50px 20px 60px;
+	border: 1px solid blue;
+}
+
+.formulario strong{
+	font-size: 1.1em;
+	font-family: courier;
+	text-transform: uppercase;
+}
+
+.formulario .input-formulario{
+	font-size: 1.1em;
+	width: 380px;
+	padding: 2px 5px;
+}
+
+.formulario .radio-formulario{
+	border: 1px solid red;
+}
+
+.formulario span{
+	font-size: 1.1em;
+	padding: 0px 20px 0px 5px;
+}
+
+.formulario select{
+	font-size: 1em;
+}
+
+.formulario .textarea-formulario{
+	width: 430px;
+	height: 200px;
+	font-size: 1.1em;
+	padding: 5px 5px;
+}
+
+.formulario .submit-formulario{
+	font-size: 0.8em;
+	margin: 0 40%;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.formulario .submit-formulario:hover{
+	background: blue;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+
+/*Contato*/
+/*******************************************/
+.lateral-contato{
+	float: left;
+	background: #FAFFAF;
+	padding: 0px 20px 20px 20px;
+	width: 35%;
+	max-width: 350px;
+}
+
+.lateral-contato h2{
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	background: blue;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+table{
+	width: 335px;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;	
+}
+
+th{
+	text-transform: uppercase;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid blue;	
+	text-align: left;
+	font-size: 100%;
+	letter-spacing: 0.1em;
+}
+
+
+
+tr.colorido{
+	background-color: #c3e6e5;
+}
+
+
+.tr-contato:hover{
+	background-color: #fff;
+}
+
+.central-contato{
+	float: right;
+	background: #FAFFAF;
+	padding: 0px 20px;
+	width: 55%;
+	text-align: justify;
+}
+
+
+.central-contato h2{
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	background: blue;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.central-contato p{
+	padding: 15px 0px 15px 15px;
+	margin-bottom: 20px;
+}
+
+
+.central-contato fieldset{
+	position: relative;
+	left: 11%;
+	width: 400px;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.central-contato legend{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.central-contato input{
+	width: 400px;
+	padding: 2px 5px;
+	font-size: 1em;
+}
+
+.central-contato textarea{
+	width: 400px;
+	height: 100px;
+	padding: 5px;
+}
+
+.central-contato input[type=submit]{
+	width: 60px;
+}
+
+
+.central-contato label{
+	text-transform: uppercase;
+}
+
+
+
+.central-contato input[type=submit]{
+	font-size: 0.8em;
+	margin: 20px 42% 0px 42%;
+	text-transform: uppercase;
+	padding: 2px;
+}
+
+.central-contato input[type=submit]:hover{
+	background: blue;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/*Miniaturas********************************/
+.miniaturas{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.mini1, .mini2, .mini3, .mini4, .mini5, .mini6{
+	margin: 10px;
+
+}
+
+.mini1{
+	width: 260px;
+	height: 160px;
+	opacity: 0.7;
+	background: url(../Imagens/mini1.jpg) no-repeat center top;
+}
+
+.mini2{
+	width: 260px;
+	height: 160px;
+	opacity: 0.7;
+	background: url(../Imagens/mini2.jpg)  no-repeat center top;
+}
+
+.mini3{
+	width: 260px;
+	height: 160px;
+	opacity: 0.7;
+	background: url(../Imagens/mini3.jpg)  no-repeat center top;
+}
+
+.mini4{
+	width: 260px;
+	height: 160px;
+	opacity: 0.7;
+	background: url(../Imagens/mini4.jpg)  no-repeat center;
+}
+
+.mini5{
+	width: 260px;
+	height: 160px;
+	opacity: 0.7;
+	background: url(../Imagens/mini5.jpg)  no-repeat center;
+}
+
+.mini6{
+	width: 260px;
+	height: 160px;
+	opacity: 0.7;
+	background: url(../Imagens/mini6.jpg) no-repeat center;
+}
+
+
+.mini1:hover{
+	opacity: 1;
+	border: 5px solid blue;
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+.mini2:hover{
+	opacity: 1;
+	border: 5px solid blue;
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+.mini3:hover{
+	opacity: 1;
+	border: 5px solid blue;
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+.mini4:hover{
+	opacity: 1;
+	border: 5px solid blue;
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+.mini5:hover{
+	opacity: 1;
+	border: 5px solid blue;
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+.mini6:hover{
+	opacity: 1;
+	border: 5px solid blue;
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+
+.texto{
+	position: relative;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	top: 40%;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.texto:hover{
+	background-color: rgba(15, 10, 222, 1);
+}
+
+/*Marcacao de pagina*/
+/******************************************/
+
+.lateral ul .marcacao-lateral a{
+	color: #fff;
+	background-position: right bottom;
+}
+
+
+/*Imagem cursos*/
+/******************************************/
+.imagem-dev-central{
+	background-image: url(../Imagens/desenvolvimento.jpg);
+	height: 300px;
+	background-position: center;
+	opacity: 0.9;
+	margin-bottom: 20px;
+	border: 2px solid blue;
+}
+
+.imagem-dir-central{
+	background-image: url(../Imagens/direito.jpg);
+	height: 300px;
+	background-position: center;
+	opacity: 0.9;
+	margin-bottom: 20px;
+	border: 2px solid blue;
+}
+
+
+.imagem-med-central{
+	background-image: url(../Imagens/medicina.jpg);
+	height: 300px;
+	background-position: center;
+	opacity: 0.9;
+	margin-bottom: 20px;
+	border: 2px solid blue;
+}
+
+
+.imagem-adm-central{
+	background-image: url(../Imagens/administracao.jpg);
+	height: 300px;
+	background-position: center;
+	opacity: 0.9;
+	margin-bottom: 20px;
+	border: 2px solid blue;
+}
+
+
+/*Login*/
+/***********************************/
+
+.login-central{
+	width: 350px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.img-central{
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.login-central .usuario{
+	height: 30px;
+	width: 80%;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 30px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-image: url(../Imagens/logar1.png);
+}
+
+.login-central .senha{
+	height: 30px;
+	width: 80%;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 30px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px ;
+	background-image: url(../Imagens/logar.png);
+}
+
+
+.login-central input[type=submit]{
+	font-size: 0.8em;
+	margin-top: 10px;
+	text-transform: uppercase;
+	padding: 2px;
+}
+
+.login-central input[type=submit]:hover{
+	background: blue;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/*Mapa e Video*****************************************/
+.mapa{
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	margin-left: 25px;
+}
+
+.video{
+	width: 98%;
+	margin: 10px 0px;
+	margin-left: 10px;
+	border: 2px solid blue;
+
+}
+
+
+.mapa-contato{
+	margin-top: 50px;
+}
+
+
+/*Animação Logo*****************************************/
+@keyframes animacao-logo-span{
+	from{
+		background: blue;
+		border-radius: 0px;
+		color: #fff;
+	}
+
+	to {
+		background: #fff;
+		border-radius: 0px;
+		color: blue;
+	}
+}
+
+@keyframes animacao-logo-p{
+	from{
+		color: #fff;
+	}
+
+	to {
+		color: #000;
+	}
+}
+
+.titulo-cabecalho span{
+	animation-name: animacao-logo-span;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-iteration-count: 4;
+	animation-direction: alternate;
+}
+
+.titulo-cabecalho p{
+	animation-name: animacao-logo-p;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-iteration-count: 4;
+	animation-direction: alternate;
+}
+
+
+/*Exclamacao-lateral*********************************/
+@keyframes animacao-borda{
+	from{
+		border-radius: 100px;
+		border: 1px solid blue;
+		background: #FAFFAF;
+	}
+
+	to {
+		border-radius: 10px;
+		border: 1px solid #FAFFAF;
+		background: #fff;
+	}
+}
+
+
+@keyframes animacao-maior{
+	from{
+		color: #000;
+	}
+
+	to {
+		color: blue;
+	}
+}
+
+
+.exclamacao-lateral{
+	width: 33px;
+	height: 16px;
+	float: left;
+	background: blue;
+	clear: both;
+	position: fixed;
+	top: 520px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 13px;
+	border-radius: 10px;
+	font-size: 0.9em;
+
+}
+
+.exclamacao-lateral:hover{
+	width: 240px;
+	height: 25px;
+	transition: width 3s, height 3s;
+	animation-name: animacao-borda;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-iteration-count: 50;
+	animation-direction: alternate;
+}
+
+
+.exclamacao-lateral span{
+	padding: 13px;
+}
+
+.exclamacao-lateral span:hover{
+	animation-name: animacao-maior;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-iteration-count: 50;
+	animation-direction: alternate;
+}
+
+
+.exclamacao-lateral p{
+	font-size: 0.9em;
+	margin-left: 40px;
+	margin-top: -20px;
+	color: rgba(0,0,0,0);
+}
+
+.exclamacao-lateral p:hover{
+	color: rgba(0,0,0,1);
+	transition: color 4s;
+	transition-delay: 0.8s;
+}
+
+.exclamacao-lateral p a{
+	margin-left: -10px;
+	padding: 20px 70px;
+	color: rgba(0,0,0,0);
+	text-decoration: underline;
+} 
+
+.exclamacao-lateral p a:hover{
+	color: rgba(199,21,133,1);
+	transition: color 2s;
+	transition-delay: 2s;
+} 
+
+/*Limpar fluxo float*/
+/*******************************************/
+.clear{
+	clear: both;
+}
+
+
+/*Rodape*/
+/*******************************************/
+.rodape{
+	background: blue;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0px;
+	letter-spacing: 3px;
+}
+
+.rodape h4{
+	padding-bottom: 10px;
+}

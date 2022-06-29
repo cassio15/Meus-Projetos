@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: Helvetica, sans-serif, arial;
+	background: #E5E0DE;
+}
+
+
+/*Cabecalho*/
+
+.cabecalho{
+	text-align: center;
+	padding: 30px;
+	margin-top: 20px;
+	background: white;
+}
+
+.titulo-cabecalho{
+	color: blue;
+	font-size: 1.1em;
+}
+
+h1{
+	margin-top: 10px;
+}
+
+.sub-cabecalho{
+	color: red;
+	font-weight: bold;
+
+}
+
+.link-cabecalho{
+	padding: 20px;
+	text-align: center;
+	background: yellow;
+	font-size: 0.8em;
+	font-family: courier, sans-serif, arial;
+}
+
+.link-cabecalho a{
+	padding: 15px;
+	text-decoration: none;
+}
+
+.link-cabecalho a:link{
+	color: red;
+}
+
+.link-cabecalho a:visited{
+	color: red;
+}
+
+.link-cabecalho a:hover{
+	background: red;
+	color: black;
+}
+
+
+/*Conteudo*/
+#conteudo{
+	margin: 20px 30px;
+	background: white;
+	width: 900px;
+	text-align: justify;
+	float: left;
+}
+
+.postagem{
+	margin: 20px;
+}
+
+
+.h2-postagem{
+	padding: 40px;
+	background: #CCC;
+}
+
+.img-postagem{
+	padding: 10px;
+	width: 400px;
+	height: 300px;
+}
+
+.p-postagem{
+	padding: 10px;
+	font-family: sans-serif, arial;
+}
+
+.h2-1-postagem{
+	padding: 40px 10px 10px 40px;
+}
+
+.ul-postagem{
+	padding: 10px 50px;
+}
+
+
+/*Area lateral*/
+.area-lateral{
+	padding: 10px;
+	width: 250px;
+	background: white;
+	height: 450px;
+	float: right;
+	margin: 20px;
+	position: relative;
+	left: -40px;
+}
+
+.h4-lateral{
+	padding: 20px;
+	background: #CCC;
+}
+
+.p-postagem-lateral{
+	padding: 10px;
+	text-align: justify;
+	font-size: 0.8em;
+	font-family: sans-serif, arial;
+}
+
+.a-lateral{
+	text-decoration: none;
+	color: red;
+	padding: 10px;
+	font-size: 0.8em;
+}
+
+.div-lateral{
+	margin: 10px 0px;
+}
+
+
+/*rodape*/
+.link-rodape{
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	background: yellow;
+	font-size: 0.8em;
+	font-family: courier, sans-serif, arial;
+}
+
+.link-rodape a{
+	padding: 15px;
+	text-decoration: none;
+}
+
+.link-rodape a:link{
+	color: red;
+}
+
+.link-rodape a:visited{
+	color: red;
+}
+
+.link-rodape a:hover{
+	background: red;
+	color: black;
+}
+
+
+
+/*historia*/
+.postagem-historia{
+	padding: 10px;
+}
+
+span{
+	font-size: 0.8em;
+	font-weight: normal; /*Remove o negrito do h3*/
+	font-style: italic;
+}
+
+.postagem2-historia{
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.hr-historia{
+	border: 1px dashed #CCC;
+	paddin: 20px;
+	margin-top: 30px;
+}
+
+.img-postagem-hist{
+	padding: 10px;
+	width: 300px;
+	height: 200px;
+}
+
+
+/*Fixo*/
+
+.fixo{
+	border: 1px solid #817D7A;
+	background: #80cded;
+	position: fixed;
+	top: 300px;  /*40*/
+	bottom: 125px; /*400*/
+	right: 0px;
+	width: 200px;
+}
+
+.h4-fixo{
+	background: darkred;
+	color: white;
+	text-align: center;
+}
+
+.robot{
+	width: 60px;
+	height: 40px;
+	margin: 5px;
+}
+
+
+.span-fixo{
+	position: relative;
+	float: right;
+	top: 20px;
+	font-size: 1em;
+	right: 20px;
+
+}
+
+.p-fixo{
+	padding: 0px 10px;
+}
+
+.p-fixo2{
+	margin-top: 20px;
+	padding: 0px 5px;
+	font-size: 0.9em;
+	font-family: sans-serif, arial;
+	font-style: italic;
+}
+
+.input-fixo{
+	margin: 0px 10px;
+	width: 175px;
+	height: 75px;
+	font-size: 0.9em;
+	font-family: helvetica, sans-serif, arial;
+	padding: 5px;
+}
+
+.submit-fixo{
+	margin: 0px 10px;
+}
+
+
+/*Bolsa*/
+
+.input-bolsa{
+	width: 470px;
+	height: 20px;
+	font-size: 0.9em;
+	padding: 2px 5px;
+	border: 1px solid blue;
+}
+
+.radio-bolsa{
+	margin: 0px 5px;
+}
+
+.span-bolsa{
+	margin: 0px 13px;
+}
+
+.checkbox-bolsa{
+	margin: 10px 0px;
+
+}
+
+.textarea-bolsa{
+	width: 560px;
+	height: 100px;
+	border: 1px solid blue;
+	padding: 10px;
+	font-size: 0.9em;
+	font-family: helvetica, sans-serif, arial;
+}
+
+.submit-bolsa{
+	padding: 2px;
+	font-size: 15px;
+	border: 1px solid black;
+}
+
+
+.postagem-bolsa{
+	margin: 20px;
+	background: #80cded;
+	padding: 10px 20px;
+}
+
+.h2-bolsa{
+	padding: 10px 10px 30px 0px;
+}
+
+
+
+/*Login*/
+
+.input-login{
+	width: 150px;
+	height: 15px;
+	font-size: 0.9em;
+	padding: 2px 5px;
+	border: 1px solid #CCC;
+}
+
+.submit-login{
+	padding: 2px;
+	font-size: 14px;
+	border: 1px solid #CCC;
+	position: relative;
+	left: 110px;
+}
+
+.span-login{
+	padding: 2px;
+}
+
+.span-login2{
+	padding: 12px;
+}
+
+.postagem-login{
+	background: #80cded;
+	padding: 30px 20px;
+	width: 250px;
+	height: 80px;
+	margin: auto;
+}
+
+
+.p-postagem-login{
+	padding: 10px;
+	font-family: sans-serif, arial;
+	margin-bottom: 30px;	
+}
+
+
+/*contato*/
+.end-contato{
+	padding: 20px;
+	margin: 20px;
+	background: #80cded;
+	font-family: sans-serif;
+	border: 2px solid #CCC;
+}
+
+.span-contato{
+	padding: 20px 20px;
+}
+
+.h2-contato{
+	padding: 20px 10px 30px 0px;
+}
+
+.div-contato{
+	padding: 20px;
+	margin: 20px 0px;
+}
+
+.assunto-contato{
+	border: 1px solid blue;
+	width: 500px;
+	height: 150px;
+	padding: 5px;
+}
+
+.input-contato{
+	border: 1px solid blue;
+	width: 500px;
+	padding: 5px;
+}
+
+.submit-contato{
+	padding: 2px;
+	font-size: 14px;
+	border: 2px solid #CCC;
+}
